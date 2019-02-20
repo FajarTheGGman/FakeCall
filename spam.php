@@ -27,4 +27,4 @@ $nomor = trim(fgets(STDIN));
 echo "Masukan Jumlah : ";
 $jumlah = trim(fgets(STDIN));
 api($nomor,$jumlah);
-?
+?>
