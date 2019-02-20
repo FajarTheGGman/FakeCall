@@ -5,14 +5,12 @@
 
 1.apt-get install git -y
 
-2.apt-get isntall wget -y
+2.apt-get isntall php -y
 
-3.apt-get install jq -y
+3.git clone https://github.com/FajarTheGGman/FakeCall
 
-4.git clone https://github.com/FajarTheGGman/FakeCall
+4.FakeCall
 
-5.FakeCall
-
-6.bash spam.sh
+5.php spam.php
 
 DONE !
