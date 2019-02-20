@@ -1,4 +1,6 @@
 <?php
+system("apt-get install toilet -y");
+system("toilet -f future FakeCall --gay");
 echo "
 [====================]
 Author : Fajar Firdaus
@@ -15,6 +17,7 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 $hasil = curl_exec($ch);
+sleep(7);
 echo $hasil;
 $loop++;
 }
@@ -24,4 +27,4 @@ $nomor = trim(fgets(STDIN));
 echo "Masukan Jumlah : ";
 $jumlah = trim(fgets(STDIN));
 api($nomor,$jumlah);
-?>
+?
