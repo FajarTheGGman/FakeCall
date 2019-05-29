@@ -10,7 +10,7 @@ IG : fajar_firdaus_7
 [====================]
 ";
 function api($nomor,$jumlah){
-$url = "https://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor=$nomor";
+$url = "http://0x.nakocoders.org/rest-api/lain-nya/api.php?nomor=$nomor";
 $loop = 0;
 while($loop < $jumlah){
 $ch = curl_init();
